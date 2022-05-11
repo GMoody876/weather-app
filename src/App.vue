@@ -16,6 +16,10 @@
          <div class="weather">{{ weather.weather[0].main }}</div>
        </div>
      </div>
+
+     <div class="footer">
+       <p>Done By Ahmed Bahaa 2022©</p>
+     </div>
    </main>
  </div>
 </template>
@@ -183,5 +187,14 @@ main{
   font-size: 48px;
   font-style: italic;
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-align: center;
 }
 </style>
